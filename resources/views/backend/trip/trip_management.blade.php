@@ -26,10 +26,10 @@
 
     <script>
         $(document).ready(function() {
-            
+
             // page is now ready, initialize the calendar...
             $('#calendar').fullCalendar({
-                locale: 'ar-sa', 
+                locale: 'ar-sa',
                 // put your options and callbacks here
                 events : [
                     @foreach($trips as $trip)
@@ -40,8 +40,8 @@
                     },
                     @endforeach
                 ]
-                
-            }); 
+
+            });
 
 
             $(function() {
@@ -50,7 +50,7 @@
                 lang: 'ar'
                 });
 
-            }); 
+            });
 
         });
         

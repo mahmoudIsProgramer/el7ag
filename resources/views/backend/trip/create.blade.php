@@ -201,30 +201,7 @@
                 });
 
 
-            }); 
-
-
-            // starrt and end date  time 
-            // $(function () {
-                // $('#txtIssueDate').datetimepicker();   
-                // $('#txtEshtablishedDate').datetimepicker(); // Umm ALqura Calendar 
-                // $('#txtExpiryDateHijri').datetimepicker({ locale: { calender: 'ummalqura', lang: 'ar' } });
-                // $('#txtEshtablishedDateHijri').datetimepicker({ locale: { calender: 'ummalqura', lang: 'ar' } });
-                // $('#txtCRIssueDateHijri').datetimepicker({ locale: { calender: 'ummalqura', lang: 'ar' } }); 
-            // });
-
-            $(function () {
-                $('#datetimepicker5').datetimepicker({
-                    defaultDate: "11/1/2013",
-                    disabledDates: [
-                        moment("12/25/2013"),
-                        new Date(2013, 11 - 1, 21),
-                        "11/22/2013 00:53"
-                    ]
-                });
-            });
-
-
+            })
         </script>
 
 
@@ -241,7 +218,7 @@
                     <div class="row">
                         <div class="col-md-6">
 
-                            @foreach(config('translatable.locales') as $locale)
+                            @foreach(config('translatable.locales') as $locale )
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">@lang('admin.'.$locale.'.companyName')</label>
                                     <input type="text" class="form-control" required  autofocus value="{{old($locale.'.name')}}" name="{{$locale}}[name]" id="exampleInputEmail1" placeholder="@lang('admin.'.$locale.'.companyName')">
@@ -261,8 +238,7 @@
 
 
                                 <div class="row">
-                                    
-                                    <!-- <div class="col-md-6">
+                                    <div class="col-md-6">
                                         <div class="form-group">
                                             <label>@lang('admin.Flight start date')</label>
 
@@ -273,8 +249,10 @@
                                                 <input type = "datetime-local" name = "start_date"
                                                       value="{!! old('start_date') !!}" class="form-control" required  autofocus><br>
 
-                                                
+                                                {{-- <input type="date" class="form-control"
+                                                       name="start_date" value="{!! old('start_date') !!}"> --}}
                                             </div>
+                                            <!-- /.input group -->
                                         </div>
 
                                     </div>
@@ -293,32 +271,48 @@
                                                 {{-- <input type="date" class="form-control"
                                                        name="end_date" value="{!! old('end_date') !!}"> --}}
                                             </div>
-                                        </div>
-                                    </div> -->
-                                    <div class='col-sm-6'>
-                                        <div class="form-group">
-                                            <div class='input-group date' id='datetimepicker5'>
-                                                <input type='text' class="form-control" />
-                                                <span class="input-group-addon">
-                                                    <span class="glyphicon glyphicon-calendar"></span>
-                                                </span>
-                                            </div>
+                                            <!-- /.input group -->
                                         </div>
                                     </div>
 
 
                                 </div>
-                                <div class="form-group">
-                                    <label  class="col-sm-2 control-label">@lang('Status')</label>
-                                    {!! Form::select('status',[1=>trans('admin.Assigned'),
+                                
+                                    @if( $typeStatus == 'Assigned')
 
-                                   7=>trans('admin.Scheduled'),
-                                   10=>trans('admin.Instant'),
-                                   ],
-                                   old('status'),['required' => true,'class'=>'form-control select2','style'=>'width: 100%;',
-                                   'placeholder'=>trans('admin.Select Status')]) !!}
+                                        <div class="form-group">
+                                        <label  class="col-sm-2 control-label">@lang('Status')</label>
 
-                                </div>
+                                            {!! Form::select('status',[1=>trans('admin.Assigned')],
+                                                old('status'),['required' => true,'class'=>'form-control select2','style'=>'width: 100%;',
+                                                'placeholder'=>trans('admin.Select Status')]) !!}
+                                        </div>
+
+                                    @endif 
+
+                                    @if( $typeStatus == 'Scheduled')
+
+                                        <div class="form-group">
+                                        <label  class="col-sm-2 control-label">@lang('Status')</label>
+
+                                            @if( $typeStatus == 'Scheduled')
+                                            {!! Form::select('status',[ 7=>trans('admin.Scheduled')],
+                                                old('status'),['required' => true,'class'=>'form-control select2','style'=>'width: 100%;',
+                                                'placeholder'=>trans('admin.Select Status')]) !!}
+                                            @endif 
+
+                                        </div>
+
+                                        <div class="form-group">
+                                            <label  class="col-sm-2 control-label">@lang('Status')</label>
+                                            {!! Form::select('status',[1=>trans('admin.Active'),0=>trans('admin.In-Active')],
+                                            old('status'),['class'=>'form-control select2','style'=>'width: 100%;',
+                                            'placeholder'=>trans('admin.Select Status')]) !!}
+
+                                        </div>
+
+                                    @endif             
+
 
                         </div>
 

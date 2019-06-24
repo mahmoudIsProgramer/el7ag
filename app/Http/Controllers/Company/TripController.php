@@ -12,6 +12,9 @@ use App\Trip;
 use App\User;
 use App\Carrier;
 use App\CarrierPath;
+use Edujugon\PushNotification\PushNotification;
+
+
 
 // use Calendar;
 
@@ -51,7 +54,7 @@ class TripController extends Controller
         }
     }
 
-    public function create()
+    public function create( Request $request )
     {
         try{
 
@@ -201,8 +204,9 @@ class TripController extends Controller
                 
 
             }
+            $typeStatus = $request->typeStatus; 
             $bus = Bus::where('status',1)->where('company_id',$userId)->orderBy('created_at','desc')->get();
-            return view('backend.trip.create',compact('guide','supervisor','driver','bus','path'));
+            return view('backend.trip.create',compact('guide','supervisor','driver','bus','path','typeStatus'));
 
         }catch (\Exception$exception )
         {
@@ -313,6 +317,27 @@ class TripController extends Controller
             }
 
             Trip::create($requestData);
+            $driver = Driver::where('id',$request->driver_id)->first(['firebaseToken','deviceType']);
+            $guide = Guide::where('id',$request->driver_id)->first(['firebaseToken','deviceType']);
+            $supervisor = Supervisor::where('id',$request->driver_id)->first(['firebaseToken','deviceType']);
+            $member = Member::where('id',$request->driver_id)->first(['firebaseToken','deviceType']);
+            // if( $driver->firebaseToken != null ){
+            //     $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
+            //     send_notification( $txt  , $driver->firebaseToken , $driver->deviceType ); 
+            // } 
+            // if( $driver->firebaseToken != null ){
+            //     $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
+            //     send_notification( $txt  , $driver->firebaseToken , $driver->deviceType ); 
+            // } 
+            // if( $driver->firebaseToken != null ){
+            //     $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
+            //     send_notification( $txt  , $driver->firebaseToken , $driver->deviceType ); 
+            // } 
+            // if( $driver->firebaseToken != null ){
+            //     $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
+            //     send_notification( $txt  , $driver->firebaseToken , $driver->deviceType ); 
+            // } 
+
             
 
 
@@ -320,7 +345,7 @@ class TripController extends Controller
 
             return redirect()->route('company.trip.index');
 
-        }catch (\Exception$exception )
+        }catch (\Exception $exception )
         {
             session()->flash('error',$exception->getMessage());
             return redirect()->back()->withInput();
