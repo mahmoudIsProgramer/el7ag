@@ -90,6 +90,30 @@ if (!function_exists('CheckIfBusyUpdate'))
 }
 
 
+if (!function_exists('send_notification'))
+{
+    function send_notification( $txt , $token  , $device_type ){
+        if( $device_type == 'android' ){
+            $push = new PushNotification('fcm');
+            $push->setMessage([
+                'data' => [
+                        'title'=>'This is the title',
+                        'message'=>$txt,
+                        ]
+                ])
+                // ->setApiKey('AAAAK8lWUHM:APA91bGEYlrZ0ZO_siwuvjUHPW1RKafnXslecIYEAt9bXVZ0qUmedFSgCNKXo96QHyFMvxZnUB6Q23ZY66s2cFP40rFqibmYb0NR5UDq7hhZ1ZGdIHiVNm8QwjxnrKN0umDFsQvX-Ev9')
+                ->setApiKey('AAAAE8PtElE:APA91bFWEYpTvHaKTPBRUaXXDBrloaluiFTuvxYJb5XdlyDJtkjpUWpfN2CQktQDI8T8CYCrJkoD6izCNbNp7VN8UqfeVpSbatS0KNhfejiCxhh2TIVTUxF9V_Dg5Ti5rZvAKmjBycQP')
+                ->setDevicesToken($token )
+                ->send()->getFeedback();
+                // dd($push);
+                return true ;
+        }
+        
+    }
+
+}
+
+
 if (!function_exists('get_guard'))
 {
     function get_guard(){

@@ -36,6 +36,25 @@ class ApiController extends Controller
 {
     use ApiResponseTrait;
 
+    // shyma 
+    // public function test(){
+        
+    //     $push = new PushNotification('fcm');
+    //     $push->setMessage([
+    //         'data' => [
+    //                 'title'=>'This is the title',
+    //                 'message'=>'This is the message',
+    //                 ]
+    //         ])
+    //         ->setApiKey('AAAAE8PtElE:APA91bFWEYpTvHaKTPBRUaXXDBrloaluiFTuvxYJb5XdlyDJtkjpUWpfN2CQktQDI8T8CYCrJkoD6izCNbNp7VN8UqfeVpSbatS0KNhfejiCxhh2TIVTUxF9V_Dg5Ti5rZvAKmjBycQP')
+    //         ->setDevicesToken('dPF5rjWd6vI:APA91bGECNv_YQCxN1UIOjzl2FJl-Gb7KF-Tps4qlBJ6-QQpr4Eo9BELWtkMvIwlZPabbAo89b9BG9PVcBhNYrB8akebuJx-vmUcPLs8UiKidr2vPkh6xFMC6AONLaE5Iiw80N5HxAAS')
+    //         ->send();
+    //         dd($push);
+    //         return true ;
+    // }
+
+
+    // mansoure 
     public function test(){
         
         $push = new PushNotification('fcm');
@@ -46,11 +65,12 @@ class ApiController extends Controller
                     ]
             ])
             ->setApiKey('AAAAK8lWUHM:APA91bGEYlrZ0ZO_siwuvjUHPW1RKafnXslecIYEAt9bXVZ0qUmedFSgCNKXo96QHyFMvxZnUB6Q23ZY66s2cFP40rFqibmYb0NR5UDq7hhZ1ZGdIHiVNm8QwjxnrKN0umDFsQvX-Ev9')
-            ->setDevicesToken('f7oS5PoHEyo:APA91bHypaAaJ2vpOGoJdpCDcxG464qUgERG8mRv0no141lzJZ6yC7QtW5Q8gfvSRZRXdpXyGcC-OwIZ7G6egY9c9ZFfFN6L7OHOXFug-0iBXfr9xEoEehatB9Qib0rREjt0CBZK3NHk')
+            ->setDevicesToken('fUHNhbAj6lU:APA91bHx-TJhZdaCxqKsOjk_EFZiLOosabblfP6hRMSte7s2nUDYSQQWVbTMmhFGGm25CAiOL7avRjzAB__fDgSTtzMj0Bqvq2q3l8XlZI8ajDU8KvdyV3En2jny1IR5B6zCPafB4uzm')
             ->send()->getFeedback();
-            // dd($push);
+            dd($push);
             return true ;
-    }
+    } 
+
 
     #login
     public function login(Request $request)
