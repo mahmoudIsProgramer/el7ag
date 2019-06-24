@@ -67,8 +67,7 @@
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.1.0/fullcalendar.min.js'></script>
 
 {{-- <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/locale/hi.js'></script> --}}
-<script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/locale/ar-sa.js'></script>
-<script src="{{asset('jquery.calendarsjquery.calendars.islamic.min.js')}}"></script>
+{{--<script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/locale/ar-sa.js'></script>--}}
 
 
 <script>

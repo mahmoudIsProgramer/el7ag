@@ -834,7 +834,7 @@
                 dayNamesShort: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'],
                 dayNamesMin: ['Su', 'Mo', 'Tu', 'We', 'Th', 'Fr', 'Sa'],
                 digits: null,
-                dateFormat: 'mm/dd/yyyy',
+                // dateFormat: 'mm/dd/yyyy',
                 firstDay: 0,
                 isRTL: false
             }
