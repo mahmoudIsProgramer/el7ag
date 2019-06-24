@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="225252cc-26c8-4049-ae22-5632e7914efb" name="Default Changelist" comment="" />
+    <list default="true" id="225252cc-26c8-4049-ae22-5632e7914efb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/Company/TripController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/Company/TripController.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +21,33 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/create.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+            <state relative-caret-position="203">
+              <caret line="32" column="31" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Company/TripController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="169">
+              <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+              <folding>
+                <element signature="e#48#60#0#PHP" expanded="true" />
+                <element signature="n#style#0;n#select#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/edit_by_calendar.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <folding>
+                <element signature="e#13#18#0" expanded="true" />
+                <element signature="e#64#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28,39 +55,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/trip_management.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            <state relative-caret-position="646">
+              <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
-              <folding>
-                <element signature="e#4171#4177#0" expanded="true" />
-                <element signature="e#4190#4196#0" expanded="true" />
-                <element signature="e#4222#4228#0" expanded="true" />
-                <element signature="e#4247#4253#0" expanded="true" />
-                <element signature="e#4589#4595#0" expanded="true" />
-                <element signature="e#4610#4616#0" expanded="true" />
-                <element signature="e#5198#5202#0" expanded="true" />
-                <element signature="e#5209#5213#0" expanded="true" />
-                <element signature="e#5438#5442#0" expanded="true" />
-                <element signature="e#5468#5472#0" expanded="true" />
-                <element signature="e#5481#5485#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/backend/bower_components/fullcalendar/dist/fullcalendar.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="288">
-              <caret line="2617" column="22" selection-start-line="2617" selection-start-column="22" selection-end-line="2617" selection-end-column="22" />
+            <state relative-caret-position="695">
+              <caret line="2629" column="44" lean-forward="true" selection-start-line="2629" selection-start-column="44" selection-end-line="2629" selection-end-column="44" />
             </state>
           </provider>
         </entry>
@@ -76,7 +81,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>Select member name</find>
       <find>$member</find>
       <find>Member name</find>
       <find>guide/create</find>
@@ -104,8 +108,9 @@
       <find>instance</find>
       <find>time</find>
       <find>datetimepicker5</find>
-      <find>calendar</find>
       <find>start_date</find>
+      <find>calendar</find>
+      <find>create</find>
     </findStrings>
     <replaceStrings>
       <replace>supervisors</replace>
@@ -167,7 +172,6 @@
         <option value="$PROJECT_DIR$/resources/views/supervisor/trip/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/trip/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/trip/index.blade.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/Company/TripController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/UserVendor/TripController.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/component/company/sidebar.blade.php" />
@@ -200,6 +204,7 @@
         <option value="$PROJECT_DIR$/public/backend/dist/js/jquery.calendars.js" />
         <option value="$PROJECT_DIR$/resources/views/backend/trip/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/trip/trip_management.blade.php" />
+        <option value="$PROJECT_DIR$/app/Http/Controllers/Company/TripController.php" />
       </list>
     </option>
   </component>
@@ -363,6 +368,32 @@
             <path>
               <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
               <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="Company" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -370,6 +401,30 @@
               <item name="el7ag" type="462c0819:PsiDirectoryNode" />
               <item name="public" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="fullcalendar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="fullcalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
@@ -437,15 +492,15 @@
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\new_7ag\el7ag" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\_Pr\Code E-Bakers\waleed\al7ag\resources\views\supervisor" />
       <recent name="D:\_Pr\Code E-Bakers\waleed\al7ag\app\Http\Controllers\Supervisor" />
       <recent name="D:\_Pr\Code E-Bakers\waleed\al7ag\resources\views\backend\component\supervisor" />
       <recent name="D:\_Pr\Code E-Bakers\waleed\al7ag\app\Http\Middleware" />
       <recent name="D:\_Pr\Code E-Bakers\waleed\al7ag\app\Http\Controllers\UserVendor" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\new_7ag\el7ag" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -553,7 +608,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="395981000" />
+    <option name="totallyTimeSpent" value="399247000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1358" y="-8" width="1616" height="916" extended-state="6" />
@@ -574,7 +629,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.24834438" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" weight="0.7155612" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.12117347" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -585,29 +640,10 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/app.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="245" column="58" selection-start-line="245" selection-start-column="58" selection-end-line="245" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/UserVendor/TripController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="484">
           <caret line="134" column="31" selection-start-line="134" selection-start-column="31" selection-end-line="134" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Company/TripController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="334">
-          <caret line="120" column="55" lean-forward="true" selection-start-line="120" selection-start-column="20" selection-end-line="120" selection-end-column="55" />
-          <folding>
-            <element signature="e#48#60#0#PHP" expanded="true" />
-            <element signature="e#1127#3356#0#PHP" />
-            <element signature="e#8806#9953#0#PHP" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1010,13 +1046,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/trip_management.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="500">
@@ -1037,17 +1066,45 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/create.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/edit_by_calendar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="56" lean-forward="true" selection-start-line="56" selection-end-line="56" />
+        <state>
+          <folding>
+            <element signature="e#13#18#0" expanded="true" />
+            <element signature="e#64#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/backend/bower_components/fullcalendar/dist/fullcalendar.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="2617" column="22" selection-start-line="2617" selection-start-column="22" selection-end-line="2617" selection-end-column="22" />
+        <state relative-caret-position="695">
+          <caret line="2629" column="44" lean-forward="true" selection-start-line="2629" selection-start-column="44" selection-end-line="2629" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/trip_management.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="48" selection-start-line="38" selection-start-column="48" selection-end-line="38" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="203">
+          <caret line="32" column="31" selection-start-line="32" selection-start-column="16" selection-end-line="32" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Company/TripController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="57" column="5" lean-forward="true" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
+          <folding>
+            <element signature="e#48#60#0#PHP" expanded="true" />
+            <element signature="n#style#0;n#select#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
