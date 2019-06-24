@@ -27,6 +27,36 @@
 @section('content')
 
     @push('js')
+
+        <script>
+
+            $("#datetimepicker5").calendarsPicker({
+                calendar: $.calendars.instance('islamic'),
+                // format: "dd MM yyyy - hh:ii",
+                    onSelect: function (date) {
+                        alert('You picked ' + date[0].formatDate());
+                    }
+
+            });
+            $("#end_date").calendarsPicker({
+                calendar: $.calendars.instance('islamic'),
+                // format: "dd MM yyyy - hh:ii",
+                    onSelect: function (date) {
+                        alert('You picked ' + date[0].formatDate());
+                    }
+
+            });
+          $("#start_date").calendarsPicker({
+                        calendar: $.calendars.instance('islamic'),
+                        // format: "dd MM yyyy - hh:ii",
+                            onSelect: function (date) {
+                                alert('You picked ' + date[0].formatDate());
+                            }
+
+                    });
+
+        </script>
+
         <script type="text/javascript">
             $(document).ready(function () {
                 @if(old('driver_id'))
@@ -246,7 +276,7 @@
                                                 <div class="input-group-addon">
                                                     <i class="fa fa-calendar"></i>
                                                 </div>
-                                                <input type = "datetime-local" name = "start_date"
+                                                <input type = "text" name = "start_date" id="start_date"
                                                       value="{!! old('start_date') !!}" class="form-control" required  autofocus><br>
 
                                                 {{-- <input type="date" class="form-control"
@@ -265,15 +295,24 @@
                                                 <div class="input-group-addon">
                                                     <i class="fa fa-calendar"></i>
                                                 </div>
-                                                <input type = "datetime-local" name = "end_date"
+                                                <input type = "text" name = "end_date" id="end_date"
                                                      value="{!! old('end_date') !!}" class="form-control" required  autofocus ><br>
 
                                                 {{-- <input type="date" class="form-control"
                                                        name="end_date" value="{!! old('end_date') !!}"> --}}
                                             </div>
-                                            <!-- /.input group -->
                                         </div>
                                     </div>
+{{--                                    <div class='col-sm-6'>--}}
+{{--                                        <div class="form-group">--}}
+{{--                                            <div class='input-group date' >--}}
+{{--                                                <input type='text' class="form-control" id='datetimepicker5' />--}}
+{{--                                                <span class="input-group-addon">--}}
+{{--                                                    <span class="glyphicon glyphicon-calendar"></span>--}}
+{{--                                                </span>--}}
+{{--                                            </div>--}}
+{{--                                        </div>--}}
+{{--                                    </div>--}}
 
 
                                 </div>
