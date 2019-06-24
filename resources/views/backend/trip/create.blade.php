@@ -277,17 +277,48 @@
 
 
                                 </div>
-                                <div class="form-group">
+                                
+                                    @if( $typeStatus == 'Assigned')
+                                    <div class="form-group">
                                     <label  class="col-sm-2 control-label">@lang('Status')</label>
-                                    {!! Form::select('status',[1=>trans('admin.Assigned'),
 
-                                   7=>trans('admin.Scheduled'),
-                                   10=>trans('admin.Instant'),
-                                   ],
-                                   old('status'),['required' => true,'class'=>'form-control select2','style'=>'width: 100%;',
-                                   'placeholder'=>trans('admin.Select Status')]) !!}
+                                        {!! Form::select('status',[1=>trans('admin.Assigned')],
+                                            old('status'),['required' => true,'class'=>'form-control select2','style'=>'width: 100%;',
+                                            'placeholder'=>trans('admin.Select Status')]) !!}
+                                    </div>
 
-                                </div>
+                                    @endif 
+
+                                    @if( $typeStatus == 'Assigned')
+                                    <div class="form-group">
+                                    <label  class="col-sm-2 control-label">@lang('Status')</label>
+
+                                        @if( $typeStatus == 'Scheduled')
+                                        {!! Form::select('status',[ 7=>trans('admin.Scheduled')],
+                                            old('status'),['required' => true,'class'=>'form-control select2','style'=>'width: 100%;',
+                                            'placeholder'=>trans('admin.Select Status')]) !!}
+                                        @endif 
+
+                                    </div>
+
+                                    <div class="form-group">
+                                        <label  class="col-sm-2 control-label">@lang('Status')</label>
+                                        {!! Form::select('status',[1=>trans('admin.Active'),0=>trans('admin.In-Active')],
+                                        old('status'),['class'=>'form-control select2','style'=>'width: 100%;',
+                                        'placeholder'=>trans('admin.Select Status')]) !!}
+
+                                    </div>
+
+
+                                    @endif 
+
+
+
+
+                                    
+
+                                    
+
 
                         </div>
 

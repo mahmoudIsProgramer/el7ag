@@ -178,7 +178,7 @@ Route::group(['prefix' => LaravelLocalization::setLocale(),
 
             #trip
             Route::get('trip','TripController@index')->name('trip.index');
-            Route::get('trip/create','TripController@create')->name('trip.create');
+            Route::get('trip/create/{typeStatus}','TripController@create')->name('trip.create'); //  Assigned   or Scheduled 
             Route::post('trip/store','TripController@store')->name('trip.store');
             Route::get('trip/edit/{id}','TripController@edit')->name('trip.edit');
             Route::post('trip/update','TripController@update')->name('trip.update');

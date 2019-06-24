@@ -204,8 +204,9 @@ class TripController extends Controller
                 
 
             }
+            $typeStatus = $request->typeStatus; 
             $bus = Bus::where('status',1)->where('company_id',$userId)->orderBy('created_at','desc')->get();
-            return view('backend.trip.create',compact('guide','supervisor','driver','bus','path'));
+            return view('backend.trip.create',compact('guide','supervisor','driver','bus','path','typeStatus'));
 
         }catch (\Exception$exception )
         {
@@ -320,19 +321,22 @@ class TripController extends Controller
             $guide = Guide::where('id',$request->driver_id)->first(['firebaseToken','deviceType']);
             $supervisor = Supervisor::where('id',$request->driver_id)->first(['firebaseToken','deviceType']);
             $member = Member::where('id',$request->driver_id)->first(['firebaseToken','deviceType']);
-            if( $driver->firebaseToken != null ){
-                $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
-                send_notification( $txt  , $driver->firebaseToken , $driver->deviceType ); 
-            } 
-            if( $guide->firebaseToken != null ){
-                $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
-                send_notification( $txt  , $guide->firebaseToken , $guide->deviceType ); 
-            } 
-            if( $supervisor->firebaseToken != null ){
-                $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
-                send_notification( $txt  , $supervisor->firebaseToken , $supervisor->deviceType ); 
-            } 
-            
+            // if( $driver->firebaseToken != null ){
+            //     $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
+            //     send_notification( $txt  , $driver->firebaseToken , $driver->deviceType ); 
+            // } 
+            // if( $driver->firebaseToken != null ){
+            //     $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
+            //     send_notification( $txt  , $driver->firebaseToken , $driver->deviceType ); 
+            // } 
+            // if( $driver->firebaseToken != null ){
+            //     $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
+            //     send_notification( $txt  , $driver->firebaseToken , $driver->deviceType ); 
+            // } 
+            // if( $driver->firebaseToken != null ){
+            //     $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
+            //     send_notification( $txt  , $driver->firebaseToken , $driver->deviceType ); 
+            // } 
 
             
 

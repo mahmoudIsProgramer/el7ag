@@ -184,16 +184,17 @@
             @endif
 
             @if(Auth::guard('company')->user())
-                <li class="treeview {!! getUrl('company.trip.index') !!} {!! getUrl('company.trip.create') !!}" >
+                <li class="treeview {!! getUrl('company.trip.index') !!} {!! getUrl('company.trip.create') !!} {!! getUrl('company.trip.create','Scheduled') !!}" >
                     <a href="#">
                         <i class="fa fa-plane"></i> <span>@lang('admin.Trips')</span>
                         <span class="pull-right-container">
-              <i class="fa fa-angle-left pull-right"></i>
+                <i class="fa fa-angle-left pull-right"></i>
             </span>
                     </a>
                     <ul class="treeview-menu" >
-                        <li class="{!! getUrl('company.trip.index') !!}"><a href="{{route('company.trip.index')}}"><i class="fa fa-eye"></i> @lang('admin.View Trips')</a></li>
-                        <li class="{!! getUrl('company.trip.create') !!}"><a href="{{route('company.trip.create')}}"><i class="fa fa-plus"></i> @lang('admin.Create Trip')</a></li>
+                        <li class="{!! getUrl('company.trip.index' ) !!}"><a href="{{route('company.trip.index')}}"><i class="fa fa-eye"></i> @lang('admin.View Trips')</a></li>
+                        <li class="{!! getUrl('company.trip.create','Assigned') !!}"><a href="{{route('company.trip.create','Assigned')}}"><i class="fa fa-plus"></i> @lang('admin.Create Trip')  Assigned </a></li>
+                        <li class="{!! getUrl('company.trip.create','Scheduled') !!}"><a href="{{route('company.trip.create','Scheduled')}}"><i class="fa fa-plus"></i> @lang('admin.Create Trip') Scheduled </a></li>
                     </ul>
 
                 </li>
