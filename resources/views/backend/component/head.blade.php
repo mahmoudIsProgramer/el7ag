@@ -12,8 +12,6 @@
 <link rel="stylesheet" href="{{asset('backend/bower_components/font-awesome/css/font-awesome.min.css')}}">
 <!-- Ionicons -->
 <link rel="stylesheet" href="{{asset('backend/bower_components/Ionicons/css/ionicons.min.css')}}">
-<link rel="stylesheet" href="{{asset('backend/dist/css/jquery.calendars.picker.css')}}">
-
 <!-- Theme style -->
 @if( LaravelLocalization::getCurrentLocaleDirection() == 'ltr')
     <link rel="stylesheet" href="{{asset('backend/dist/css/AdminLTE.min.css')}}">
@@ -63,11 +61,6 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 
 <script src="{{asset('backend/bower_components/jquery/dist/jquery.min.js')}}"></script>
-<script src="{{asset('backend/dist/js/jquery.calendars.js')}}"></script>
-<script src="{{asset('backend/dist/js/jquery.calendars.plus.min.js')}}"></script>
-<script src="{{asset('backend/dist/js/jquery.plugin.min.js')}}"></script>
-<script src="{{asset('backend/dist/js/jquery.calendars.picker.js')}}"></script>
-<script src="{{asset('backend/dist/js/jquery.calendars.islamic.min.js')}}"></script>
 
 <!-- Select2 -->
 <link rel="stylesheet" href="{{asset('backend/bower_components/select2/dist/css/select2.min.css')}}">

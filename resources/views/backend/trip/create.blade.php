@@ -272,7 +272,7 @@
                                                        name="end_date" value="{!! old('end_date') !!}"> --}}
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div>
                                     <div class='col-sm-6'>
                                         <div class="form-group">
                                             <div class='input-group date' >
