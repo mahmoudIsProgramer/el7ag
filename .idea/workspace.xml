@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="225252cc-26c8-4049-ae22-5632e7914efb" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="225252cc-26c8-4049-ae22-5632e7914efb" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,31 +15,67 @@
     </execution>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/create.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="55" column="23" selection-start-line="48" selection-start-column="10" selection-end-line="55" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/trip_management.blade.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="151">
+              <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="32" column="52" lean-forward="true" selection-start-line="32" selection-start-column="52" selection-end-line="32" selection-end-column="52" />
+              <folding>
+                <element signature="e#7912#7918#0" expanded="true" />
+                <element signature="e#7931#7937#0" expanded="true" />
+                <element signature="e#7963#7969#0" expanded="true" />
+                <element signature="e#7988#7994#0" expanded="true" />
+                <element signature="e#8330#8336#0" expanded="true" />
+                <element signature="e#8351#8357#0" expanded="true" />
+                <element signature="e#8939#8943#0" expanded="true" />
+                <element signature="e#8950#8954#0" expanded="true" />
+                <element signature="e#9179#9183#0" expanded="true" />
+                <element signature="e#9209#9213#0" expanded="true" />
+                <element signature="e#9222#9226#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/public/backend/bower_components/fullcalendar/dist/fullcalendar.d.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-715">
+              <caret line="2550" column="12" selection-start-line="2550" selection-start-column="12" selection-end-line="2550" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>getRequestMe</find>
-      <find>getRequestMemberByTripsID</find>
-      <find>filter</find>
-      <find>filterByDate</find>
-      <find>endTripDriver</find>
-      <find>endTrip</find>
-      <find>endTripSupervisor</find>
-      <find>trip</find>
-      <find>$status</find>
-      <find>Auth::guard('user_vendor')</find>
-      <find>login</find>
-      <find>company</find>
-      <find>addTrip</find>
-      <find>Add</find>
-      <find>User Vendor</find>
-      <find>Vendor</find>
-      <find>View User Vendor</find>
-      <find>create User Vendor</find>
-      <find>Create User Vendor</find>
-      <find>supervisor/create</find>
-      <find>Member</find>
       <find>Select member name</find>
       <find>$member</find>
       <find>Member name</find>
@@ -51,6 +85,27 @@
       <find>bus/create</find>
       <find>driver_id</find>
       <find>alert</find>
+      <find>cal</find>
+      <find>jquery.min.js</find>
+      <find>class=&quot;calendars-nav&quot;</find>
+      <find>class=&quot;calendars-month-row&quot;</find>
+      <find>jquery.calendars.picker.css</find>
+      <find>calendars.islamic.min.js</find>
+      <find>jquery.calendars.js</find>
+      <find>dist/jquery.min.js</find>
+      <find>query.calendars.picker</find>
+      <find>datepickerLocale</find>
+      <find>jquery.calendarsjquery.calendars.islamic.min.js</find>
+      <find>id=&quot;datetimepicker5&quot;</find>
+      <find>forma</find>
+      <find>strtotime</find>
+      <find>locale/ar-sa.js</find>
+      <find>dateFormat</find>
+      <find>instance</find>
+      <find>time</find>
+      <find>datetimepicker5</find>
+      <find>calendar</find>
+      <find>start_date</find>
     </findStrings>
     <replaceStrings>
       <replace>supervisors</replace>
@@ -94,24 +149,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserVendor/DestinationController.php" />
-        <option value="$PROJECT_DIR$/app/Http/Controllers/UserVendor/PathController.php" />
-        <option value="$PROJECT_DIR$/app/Helper/helpers.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_02_27_114046_create_companies_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_04_081446_create_members_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_03_04_081448_create_supervisors_table.php" />
-        <option value="$PROJECT_DIR$/app/TripStart.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_04_22_001001_create_notifications_table.php" />
-        <option value="$PROJECT_DIR$/app/Notification.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_04_22_002855_create_trip_pauses_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_04_21_235126_create_trip_starts_table.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_04_22_021632_create_request_pause_trips_table.php" />
-        <option value="$PROJECT_DIR$/app/RequestPauseTrip.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_04_23_004258_create_end_trips_table.php" />
-        <option value="$PROJECT_DIR$/app/EndTrip.php" />
         <option value="$PROJECT_DIR$/app/TripMemeber.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_04_23_005902_create_trip_memebers_table.php" />
-        <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/routes/api.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Api/ApiController.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php" />
@@ -126,7 +165,6 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/Supervisor/TripController.php" />
         <option value="$PROJECT_DIR$/resources/views/supervisor/trip/index.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/supervisor/trip/edit.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/backend/trip/create.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/trip/edit.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/trip/index.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Company/TripController.php" />
@@ -145,6 +183,23 @@
         <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/resources/views/backend/bus/create.blade.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/Company/BusController.php" />
+        <option value="$PROJECT_DIR$/public/backend/dist/js/jquery.calendars.islamic-ar.js" />
+        <option value="$PROJECT_DIR$/../../date.php" />
+        <option value="$PROJECT_DIR$/../../date.html" />
+        <option value="$USER_HOME$/Desktop/date.html" />
+        <option value="$PROJECT_DIR$/public/backend/dist/js/jquery.calendars.islamic.min.js" />
+        <option value="$PROJECT_DIR$/public/backend/dist/js/jquery.calendars.picker.js" />
+        <option value="$PROJECT_DIR$/public/backend/dist/js/jquery.plugin.min.js" />
+        <option value="$PROJECT_DIR$/public/backend/dist/js/jquery.calendars.plus.min.js" />
+        <option value="$PROJECT_DIR$/public/backend/dist/js/jquery.min.js" />
+        <option value="$PROJECT_DIR$/public/index.php" />
+        <option value="$PROJECT_DIR$/.env" />
+        <option value="$PROJECT_DIR$/public/backend/dist/css/jquery.calendars.picker.css" />
+        <option value="$PROJECT_DIR$/resources/views/backend/component/head.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/component/script.blade.php" />
+        <option value="$PROJECT_DIR$/public/backend/dist/js/jquery.calendars.js" />
+        <option value="$PROJECT_DIR$/resources/views/backend/trip/create.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/backend/trip/trip_management.blade.php" />
       </list>
     </option>
   </component>
@@ -276,10 +331,19 @@
       <path value="$PROJECT_DIR$/vendor/google/cloud-storage" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-iconv" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/vendor/psr/http-factory" />
+      <path value="$PROJECT_DIR$/vendor/symfony/service-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher-contracts" />
+      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php73" />
+      <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
+      <path value="$PROJECT_DIR$/vendor/edujugon/push-notification" />
+      <path value="$PROJECT_DIR$/vendor/kylekatarnls/update-helper" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-7" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1419" />
+    <option name="y" value="50" />
     <option name="width" value="1386" />
     <option name="height" value="788" />
   </component>
@@ -293,169 +357,133 @@
         <subPane>
           <expand>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="Company" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="fullcalendar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="UserVendor" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="bower_components" type="462c0819:PsiDirectoryNode" />
+              <item name="fullcalendar" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="adminlte.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="jQueryUI" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="plugins" type="462c0819:PsiDirectoryNode" />
+              <item name="jQueryUI" type="462c0819:PsiDirectoryNode" />
+              <item name="jquery-ui.js" type="620a8d5e:NestingTreeNode" />
+            </path>
+            <path>
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="bus" type="462c0819:PsiDirectoryNode" />
+              <item name="component" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
+              <item name="el7ag" type="b2602c69:ProjectViewProjectNode" />
+              <item name="el7ag" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="driver" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="backend" type="462c0819:PsiDirectoryNode" />
-              <item name="guide" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="routes" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
-              <item name="Support" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="al7ag" type="b2602c69:ProjectViewProjectNode" />
-              <item name="al7ag" type="462c0819:PsiDirectoryNode" />
-              <item name="vendor" type="462c0819:PsiDirectoryNode" />
-              <item name="laravel" type="462c0819:PsiDirectoryNode" />
-              <item name="framework" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="Illuminate" type="462c0819:PsiDirectoryNode" />
-              <item name="Support" type="462c0819:PsiDirectoryNode" />
-              <item name="Facades" type="462c0819:PsiDirectoryNode" />
+              <item name="trip" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -467,13 +495,16 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../otlob" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\new_7ag\el7ag" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\_Pr\Code E-Bakers\waleed\al7ag\resources\views\supervisor" />
       <recent name="D:\_Pr\Code E-Bakers\waleed\al7ag\app\Http\Controllers\Supervisor" />
@@ -582,21 +613,22 @@
       <workItem from="1558359533969" duration="8614000" />
       <workItem from="1559570435186" duration="13995000" />
       <workItem from="1560073116459" duration="625000" />
+      <workItem from="1561366880665" duration="7539000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="383990000" />
+    <option name="totallyTimeSpent" value="395505000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1386" height="788" extended-state="0" />
+    <frame x="1358" y="-8" width="1616" height="916" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2413273" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20886889" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3262195" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3252551" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -606,7 +638,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5010661" side_tool="true" weight="0.24834438" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" weight="0.18902439" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4989339" visible="true" weight="0.7155612" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -617,140 +649,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/TripMemeber.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_23_004258_create_end_trips_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_04_23_005902_create_trip_memebers_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="88">
-          <caret line="6" column="19" lean-forward="true" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="356">
-          <caret line="67" column="19" selection-start-line="67" selection-start-column="9" selection-end-line="67" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/AuthController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="177" column="60" selection-start-line="177" selection-start-column="50" selection-end-line="177" selection-end-column="60" />
-          <folding>
-            <element signature="e#2164#5507#0#PHP" />
-            <element signature="e#3178#4187#0#PHP" />
-            <element signature="e#4201#5215#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Middleware/Supervisor.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="15" column="79" selection-start-line="15" selection-start-column="79" selection-end-line="15" selection-end-column="79" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Kernel.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-305">
-          <caret line="56" column="55" selection-start-line="56" selection-start-column="55" selection-end-line="56" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/component/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-341" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/component/footer.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/component/control-sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1056" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/component/head.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1141" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/component/userVendor/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/component/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/component/supervisor/sidebar.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
-          <caret line="56" column="14" lean-forward="true" selection-start-line="56" selection-start-column="14" selection-end-line="56" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/component/supervisor/header.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="281" column="62" selection-start-line="281" selection-start-column="52" selection-end-line="281" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/layouts/master.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Company/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Supervisor/HomeController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/supervisor/dashboard/dashboard.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4862">
-          <caret line="13" column="53" selection-start-line="13" selection-start-column="53" selection-end-line="13" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/create.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="203" column="84" selection-start-line="203" selection-start-column="84" selection-end-line="203" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/edit.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="204" column="84" selection-start-line="204" selection-start-column="84" selection-end-line="204" selection-end-column="84" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/routes/api.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
@@ -833,13 +731,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/backend/component/company/sidebar.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="208">
@@ -854,13 +745,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="54" lean-forward="true" selection-start-line="54" selection-end-line="54" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Support/Facades/Auth.php" />
     <entry file="file://$PROJECT_DIR$/app/Guide.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -990,6 +875,233 @@
           <folding>
             <element signature="e#48#60#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/component/header.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../../date.php" />
+    <entry file="file://$PROJECT_DIR$/../../date.html" />
+    <entry file="file://$PROJECT_DIR$/public/backend/dist/js/jquery.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="23" column="27" lean-forward="true" selection-start-line="23" selection-start-column="27" selection-end-line="23" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="12" lean-forward="true" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/backend/dist/css/jquery.calendars.picker.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="215" selection-start-line="215" selection-end-line="215" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/component/head.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/date.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" selection-start-line="17" selection-end-line="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/backend/dist/js/jquery.plugin.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="76" lean-forward="true" selection-start-line="7" selection-start-column="76" selection-end-line="7" selection-end-column="76" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/backend/dist/js/locationpicker.jquery.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1054">
+          <caret line="46" column="41" lean-forward="true" selection-start-line="46" selection-start-column="41" selection-end-line="46" selection-end-column="41" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/backend/dist/js/adminlte.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986">
+          <caret line="38" column="24" lean-forward="true" selection-start-line="38" selection-start-column="24" selection-end-line="38" selection-end-column="24" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/backend/dist/js/demo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4352">
+          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#0;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#0;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#span#1;n#div#1;n#a#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/backend/dist/js/jquery.calendars.islamic.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/backend/plugins/jQueryUI/jquery-ui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-613">
+          <caret line="5073" column="4" selection-start-line="5073" selection-start-column="4" selection-end-line="5073" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/backend/dist/js/jquery.calendars.plus.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/component/script.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="73" column="19" lean-forward="true" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/backend/dist/js/jquery.calendars.picker.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1034">
+          <caret line="274" column="18" lean-forward="true" selection-start-line="274" selection-start-column="18" selection-end-line="274" selection-end-column="18" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/backend/dist/js/jquery.calendars.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="370">
+          <caret line="836" column="28" lean-forward="true" selection-start-line="836" selection-start-column="28" selection-end-line="836" selection-end-column="28" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="50">
+          <caret line="753" column="25" lean-forward="true" selection-start-line="753" selection-start-column="25" selection-end-line="753" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/create.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="55" column="23" selection-start-line="48" selection-start-column="10" selection-end-line="55" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/backend/trip/trip_management.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="151">
+          <caret line="33" column="26" selection-start-line="33" selection-start-column="26" selection-end-line="33" selection-end-column="26" />
         </state>
       </provider>
     </entry>
