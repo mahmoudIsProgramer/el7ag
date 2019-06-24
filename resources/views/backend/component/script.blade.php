@@ -68,14 +68,8 @@
 
 {{-- <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/locale/hi.js'></script> --}}
 <script src='https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.10.0/locale/ar-sa.js'></script>
+<script src="{{asset('jquery.calendarsjquery.calendars.islamic.min.js')}}"></script>
 
-
-
-
-
-@stack('js')
-
-@stack('css')
 
 <script>
     $(function () {
@@ -104,37 +98,29 @@
     $('[data-mask]').inputmask();
 
 </script>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <script>
     $(document).ready(function () {
 
         $("#formABC").submit(function (e) {
 
-            //stop submitting the form to see the disabled button effect
-            //  e.preventDefault();
+//stop submitting the form to see the disabled button effect
+//  e.preventDefault();
 
-            //disable the submit button
-            $("#btnSubmit").attr("disabled", true);
+//disable the submit button
+$("#btnSubmit").attr("disabled", true);
 
-            //disable a normal button
-            $("#btnTest").attr("disabled", true);
+//disable a normal button
+$("#btnTest").attr("disabled", true);
 
-            return true;
+return true;
 
-        });
-    });
+});
+});
 </script>
+
+
+
+@stack('js')
+
+@stack('css')
+

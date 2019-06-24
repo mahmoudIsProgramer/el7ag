@@ -27,6 +27,17 @@
 @section('content')
 
     @push('js')
+        <script>
+
+            $('#datetimepicker5').calendarsPicker({
+                calendar: $.calendars.instance('islamic'),
+                monthsToShow: [2, 3],
+                onSelect: function (date) {
+                    alert('You picked ' + date[0].formatDate());
+                }
+            });
+
+        </script>
         <script type="text/javascript">
             $(document).ready(function () {
                 @if(old('driver_id'))
@@ -213,19 +224,20 @@
                 // $('#txtCRIssueDateHijri').datetimepicker({ locale: { calender: 'ummalqura', lang: 'ar' } }); 
             // });
 
-            $(function () {
-                $('#datetimepicker5').datetimepicker({
-                    defaultDate: "11/1/2013",
-                    disabledDates: [
-                        moment("12/25/2013"),
-                        new Date(2013, 11 - 1, 21),
-                        "11/22/2013 00:53"
-                    ]
-                });
-            });
+            // $(function () {
+            //     $('#datetimepicker5').datetimepicker({
+            //         defaultDate: "11/1/2013",
+            //         disabledDates: [
+            //             moment("12/25/2013"),
+            //             new Date(2013, 11 - 1, 21),
+            //             "11/22/2013 00:53"
+            //         ]
+            //     });
+            // });
 
 
         </script>
+
 
 
         @endpush
@@ -297,8 +309,8 @@
                                     </div> -->
                                     <div class='col-sm-6'>
                                         <div class="form-group">
-                                            <div class='input-group date' id='datetimepicker5'>
-                                                <input type='text' class="form-control" />
+                                            <div class='input-group date' >
+                                                <input type='text' class="form-control" id='datetimepicker5' />
                                                 <span class="input-group-addon">
                                                     <span class="glyphicon glyphicon-calendar"></span>
                                                 </span>
