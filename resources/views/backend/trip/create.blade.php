@@ -27,17 +27,6 @@
 @section('content')
 
     @push('js')
-        <script>
-
-            $('#datetimepicker5').calendarsPicker({
-                calendar: $.calendars.instance('islamic'),
-                monthsToShow: [2, 3],
-                onSelect: function (date) {
-                    alert('You picked ' + date[0].formatDate());
-                }
-            });
-
-        </script>
         <script type="text/javascript">
             $(document).ready(function () {
                 @if(old('driver_id'))
@@ -212,32 +201,8 @@
                 });
 
 
-            }); 
-
-
-            // starrt and end date  time 
-            // $(function () {
-                // $('#txtIssueDate').datetimepicker();   
-                // $('#txtEshtablishedDate').datetimepicker(); // Umm ALqura Calendar 
-                // $('#txtExpiryDateHijri').datetimepicker({ locale: { calender: 'ummalqura', lang: 'ar' } });
-                // $('#txtEshtablishedDateHijri').datetimepicker({ locale: { calender: 'ummalqura', lang: 'ar' } });
-                // $('#txtCRIssueDateHijri').datetimepicker({ locale: { calender: 'ummalqura', lang: 'ar' } }); 
-            // });
-
-            // $(function () {
-            //     $('#datetimepicker5').datetimepicker({
-            //         defaultDate: "11/1/2013",
-            //         disabledDates: [
-            //             moment("12/25/2013"),
-            //             new Date(2013, 11 - 1, 21),
-            //             "11/22/2013 00:53"
-            //         ]
-            //     });
-            // });
-
-
+            })
         </script>
-
 
 
         @endpush
@@ -273,8 +238,7 @@
 
 
                                 <div class="row">
-                                    
-                                    <!-- <div class="col-md-6">
+                                    <div class="col-md-6">
                                         <div class="form-group">
                                             <label>@lang('admin.Flight start date')</label>
 
@@ -285,8 +249,10 @@
                                                 <input type = "datetime-local" name = "start_date"
                                                       value="{!! old('start_date') !!}" class="form-control" required  autofocus><br>
 
-                                                
+                                                {{-- <input type="date" class="form-control"
+                                                       name="start_date" value="{!! old('start_date') !!}"> --}}
                                             </div>
+                                            <!-- /.input group -->
                                         </div>
 
                                     </div>

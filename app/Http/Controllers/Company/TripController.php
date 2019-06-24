@@ -12,6 +12,9 @@ use App\Trip;
 use App\User;
 use App\Carrier;
 use App\CarrierPath;
+use Edujugon\PushNotification\PushNotification;
+
+
 
 // use Calendar;
 
@@ -313,6 +316,24 @@ class TripController extends Controller
             }
 
             Trip::create($requestData);
+            $driver = Driver::where('id',$request->driver_id)->first(['firebaseToken','deviceType']);
+            $guide = Guide::where('id',$request->driver_id)->first(['firebaseToken','deviceType']);
+            $supervisor = Supervisor::where('id',$request->driver_id)->first(['firebaseToken','deviceType']);
+            $member = Member::where('id',$request->driver_id)->first(['firebaseToken','deviceType']);
+            if( $driver->firebaseToken != null ){
+                $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
+                send_notification( $txt  , $driver->firebaseToken , $driver->deviceType ); 
+            } 
+            if( $guide->firebaseToken != null ){
+                $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
+                send_notification( $txt  , $guide->firebaseToken , $guide->deviceType ); 
+            } 
+            if( $supervisor->firebaseToken != null ){
+                $txt = 'تمت  اضافة  رحله  الي  السجل  الخاص  بك ' ; 
+                send_notification( $txt  , $supervisor->firebaseToken , $supervisor->deviceType ); 
+            } 
+            
+
             
 
 
@@ -320,7 +341,7 @@ class TripController extends Controller
 
             return redirect()->route('company.trip.index');
 
-        }catch (\Exception$exception )
+        }catch (\Exception $exception )
         {
             session()->flash('error',$exception->getMessage());
             return redirect()->back()->withInput();
