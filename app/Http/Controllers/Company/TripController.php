@@ -54,7 +54,7 @@ class TripController extends Controller
         }
     }
 
-    public function create()
+    public function create( Request $request )
     {
         try{
 

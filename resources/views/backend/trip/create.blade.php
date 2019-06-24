@@ -218,7 +218,7 @@
                     <div class="row">
                         <div class="col-md-6">
 
-                            @foreach(config('translatable.locales') as $locale)
+                            @foreach(config('translatable.locales') as $locale )
                                 <div class="form-group">
                                     <label for="exampleInputEmail1">@lang('admin.'.$locale.'.companyName')</label>
                                     <input type="text" class="form-control" required  autofocus value="{{old($locale.'.name')}}" name="{{$locale}}[name]" id="exampleInputEmail1" placeholder="@lang('admin.'.$locale.'.companyName')">
@@ -310,14 +310,7 @@
                                     </div>
 
 
-                                    @endif 
-
-
-
-
-                                    
-
-                                    
+                                    @endif             
 
 
                         </div>
